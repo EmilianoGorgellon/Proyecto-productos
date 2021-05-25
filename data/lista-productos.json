@@ -1,0 +1,225 @@
+[{
+  "id": 1,
+  "nombre_producto": "Xiami redmi note 9",
+  "descripcion": "Pensado para vos El Xiaomi Note 9 posee el novedoso sistema operativo Android 10 que incorpora respuestas inteligentes y acciones sugeridas para todas tus aplicaciones. Entre sus diversas funcionalidades encontrarás el tema oscuro, navegación por gestos y modo sin distracciones, para que completes tus tareas mientras disfrutás al máximo tu dispositivo.",
+  "categoria": "tecnologia",
+  "precio": 40000,
+  "disponible": true,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_942199-MLA44161684825_112020-F.webp"
+},
+{
+  "id": 2,
+  "nombre_producto": "Motorola G9 power",
+  "descripcion": "Pensado para vos El Motorola G9 Power posee el novedoso sistema operativo Android 10 que incorpora respuestas inteligentes y acciones sugeridas para todas tus aplicaciones. Entre sus diversas funcionalidades encontrarás el tema oscuro, navegación por gestos y modo sin distracciones, para que completes tus tareas mientras disfrutás al máximo tu dispositivo.",
+  "categoria": "tecnologia",
+  "precio": 35000,
+  "disponible": true,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_650272-MLA44879924681_022021-O.webp"
+},
+{
+  "id": 3,
+  "nombre_producto": "Iphone 11",
+  "descripcion": "Fotos amplias y perfectas de día y de noche Su cámara ultra gran angular abarca un campo visual hasta cuatro veces más grande para que nada ni nadie se quede afuera de la toma. Y con el modo Noche la poca luz no es problema. Ya sea de fiesta con amigos o en un cumpleaños familiar, guardá los mejores momentos sin necesidad de usar flash. ¡La función se activa automáticamente!",
+  "categoria": "tecnologia",
+  "precio": 160000,
+  "disponible": false,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_748385-MLA43653904252_102020-F.webp"
+},
+{
+  "id": 4,
+  "nombre_producto": "Apple Mac book Air 13",
+  "descripcion": "La MacBook Air tiene una deslumbrante resolución de 2560 x 1600 con más de 4 millones de pixeles. Los resultados son verdaderamente extraordinarios: las imágenes son más vívidas que nunca y los textos se ven increíblemente nítidos y definidos. Además, la tecnología True Tone ajusta automáticamente el punto blanco de la pantalla para que coincida con la temperatura de color de tu entorno. Eso hace que las páginas web y los emails se vean tan naturales como en una hoja impresa. Con millones de colores, todo se ve espectacular. Y como si fuera poco, el vidrio se extiende hasta el borde de la estructura para que lo único que veas sea la pantalla. Lo que vas a ver te encantará.",
+  "categoria": "tecnologia",
+  "precio": 161200,
+  "disponible": true,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_678315-MLA44988489015_022021-F.webp"
+},
+{
+  "id": 5,
+  "nombre_producto": "Notebook Asus",
+  "descripcion": "Disfrutá de la perfecta combinación de rendimiento y diseño con esta notebook Asus VivoBook R564JA. Encontrarás en ella una excelente herramienta para tus trabajos de todos los días y para tus momentos de entretenimiento. Aprovechá la experiencia extraordinaria que la marca tiene para ofrecerte y optimizá la calidad de tus imágenes y videos.",
+  "categoria": "tecnologia",
+  "precio": 78500,
+  "disponible": true,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_913944-MLA44973386650_022021-F.webp"
+},
+{
+  "id": 6,
+  "nombre_producto": "Cafetera Peabody",
+  "descripcion": "Peabody se destaca por fabricar electrodomésticos de alta calidad y durabilidad brindando comodidad y seguridad a sus clientes. No puede faltar nunca la cafetera Peabody en tu hogar, ya que es ideal para disfrutar de un café increíble en el momento que desees. ¡Te sentirás un auténtico barista!",
+  "categoria": "electrodomesticos",
+  "precio": 5840,
+  "disponible": true,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_997394-MLA32654533772_102019-F.webp"
+},
+{
+  "id": 7,
+  "nombre_producto": "Aire acondicionado BGH",
+  "descripcion": "Fundada en 1913, BGH es hoy una de las marcas líderes a nivel mundial en la fabricación y distribución de electrodomésticos. Ofrece excelentes opciones de refrigeración y calefacción para el hogar con tecnología de avanzada y diseños de vanguardia.Climatizar tus espacios a lo largo del año es sin duda algo importante para tu comodidad y la de tus seres queridos. Contar con un aire acondicionado con función frío/calor es la mejor decisión. Con este aire BGH BS35WCCR conseguí una mejor relación costo-beneficio.",
+  "categoria": "electrodomesticos",
+  "precio": 52999,
+  "disponible": true,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_694117-MLA40282485103_122019-F.webp"
+},
+{
+  "id": 8,
+  "nombre_producto": "Batidora de pie Tedge",
+  "descripcion": "Amasá, mezclá y batí con la batidora Tedge SM-1521. Este electrodoméstico cuenta con 3 batidores resistentes que permiten preparar todo tipo de postres. Tiene 8 velocidades para que regules la intensidad de batido y trabajes de manera cómoda. Al incluir una tapa anti salpicaduras evitarás descuidos en la cocina y con su ventanilla podrás añadir ingredientes sin levantarla.",
+  "categoria": "electrodomesticos",
+  "precio": 10999,
+  "disponible": false,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_681257-MLA45304818024_032021-F.webp"
+},
+{
+  "id": 9,
+  "nombre_producto": "Mixer Black",
+  "descripcion": "Este electrodoméstico llegó para quedarse. Simple, práctico y cómodo, para que tus recetas y vos se luzcan. Es sencillo de utilizar, lo conectás, ponés todos los ingredientes y a mixear, en un segundo todo listo.",
+  "categoria": "electrodomesticos",
+  "precio": 4070,
+  "disponible": false,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_874152-MLA41530660143_042020-F.webp"
+},
+{
+  "id": 10,
+  "nombre_producto": "Zapatillas Nike Air Force 1",
+  "descripcion": "Diseñadas para vos que te arriesgás a todo y que no pasas desapercibida, ideales para que vivas todas las aventuras posibles con las Zapatillas Nike Air Force 1 07 con capas de cuero sintético, te ofrece un look urbano y moderno lleno de texturas y ritmo. Su entresuela ancha y suela ranurada te ofrece ligereza y amortiguación en cualquier superficie para que vayas segura dando pasos estables y con un estilo único característico de la marca. Zapatillas Nike Air Force 1 07 en Blanco",
+  "categoria": "indumentaria",
+  "precio": 14999,
+  "disponible": true,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_931094-MLA45568162183_042021-F.webp"
+},
+{
+  "id": 11,
+  "nombre_producto": "Remera Nike Park Vi 0385",
+  "descripcion": "TIENDA OFICIAL NIKE PRODUCTO DISTRIBUIDO POR NIKE OFICIAL FORMAS DE ENTREGA",
+  "categoria": "indumentaria",
+  "precio": 3299,
+  "disponible": true,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_692988-MLA45102987713_032021-F.webp"
+},
+{
+  "id": 12,
+  "nombre_producto": "Zapatillas W Air Max 200 Nike Blast",
+  "descripcion": "-NOMBRE: AIR MAX 200, GÉNERO: MUJER, MARCA: nike, ARTÍCULO: CJ0630600",
+  "categoria": "indumentaria",
+  "precio": 14475,
+  "disponible": false,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_850757-MLA45413842081_042021-F.webp"
+},
+{
+  "id": 13,
+  "nombre_producto": "Pantalon adidas Core Sereno 19 1085",
+  "descripcion": "El envío es GRATIS si la compra supera los $3500. De lo contrario ingresando tu código postal podrás calcular el costo de envío y la demora “estimada”. El cumplimiento de la fecha de entrega, puede verse afectado por cuestiones coyunturales de fuerza mayor que exceden a la compañía.",
+  "categoria": "indumentaria",
+  "precio": 5999,
+  "disponible": true,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_827762-MLA45850293668_052021-F.webp"
+},
+{
+  "id": 14,
+  "nombre_producto": "Citroën C3 1.6 Vti 115 Live",
+  "descripcion": "Marca citroen la mejor del mundo",
+  "categoria": "autos",
+  "precio": 640000,
+  "disponible": true,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_770259-MLA43646297382_102020-F.webp"
+},
+{
+  "id": 15,
+  "nombre_producto": "Peugeot 208 1.2 Like",
+  "descripcion": "Marca peugeto la mejor del mundo",
+  "categoria": "autos",
+  "precio": 1110000,
+  "disponible": false,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_788304-MLA45495725563_042021-F.webp"
+},
+{
+  "id": 16,
+  "nombre_producto": "RAM 1500 5.7 Laramie Atx V8",
+  "descripcion": "Con su tradicional chasis de largueros y travesaños, en sus entrañas late un conocido motor: un V8 HEMI con 5,7 litros de cilindrada, asociado a una caja de cambios automática Torqueflite de 8 velocidades, una de las más recientes novedades de la gama alta",
+  "categoria": "autos",
+  "precio": 7490000,
+  "disponible": false,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_909963-MLA44172651747_112020-F.webp"
+},
+{
+  "id": 17,
+  "nombre_producto": "Fiat Cronos 1.3 Gse Drive Pack Conectividad",
+  "descripcion": "El Fiat Cronos S-Design viene con airbags frontales para conductor y acompañante. No tiene los airbags laterales que sí están en las versiones más caras del Cronos. Cuenta con control de tracción y de estabilidad, frenos ABS+EBD, monitoreo de la presión de los neumáticos y asistencia de arranque en pendiente",
+  "categoria": "autos",
+  "precio": 1568778,
+  "disponible": true,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_664431-MLA44505504554_012021-F.webp"
+},
+{
+  "id": 18,
+  "nombre_producto": "Pelota Penalty Matis Dtx Futbol Blanco Amarillo",
+  "descripcion": "Cápsula Sis: nuevo sistema de boquillas que rodea la aguja y protege la cámara de aire. Dupla Colagem: doble capa de unión que refuerza aún más la unión de los gajos.PU Super Soft: material extremadamente suave que proporciona al practicante una sensación de comodidad al tener contacto con la pelota. ",
+  "categoria": "deporte",
+  "precio": 2399,
+  "disponible": true,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_800056-MLA45215335573_032021-O.webp"
+},
+{
+  "id": 19,
+  "nombre_producto": "Pelota basketball",
+  "descripcion": "Pelota de básquet para entrenamiento o simplemente para divertirse, excelente material resistente y máximas durabilidad, ideal para jugar en equipo o solo de practica para que seas el mejor. Este balón está hecho para jugadores pequeños o juegos de estilo arcade. Tiene el aspecto y la sensación de una pelota al aire libre normal, pero está dimensionada para adaptarse a aros con un diámetro interno de 12 pulgadas",
+  "categoria": "deporte",
+  "precio": 1799,
+  "disponible": true,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_843820-MLA44125259262_112020-O.webp"
+},
+{
+  "id": 20,
+  "nombre_producto": "Pelota De Voley Cuero Sintético",
+  "descripcion": "Pelota de volley profesional de maxima calidad. La mejor del mercado",
+  "categoria": "deporte",
+  "precio": 879,
+  "disponible": false,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_686801-MLA42073719894_062020-O.webp"
+},
+{
+  "id": 21,
+  "nombre_producto": "Zapatillas adidas Energy Falcon 1085 Dash",
+  "descripcion": "El envío es GRATIS si la compra supera los $3500. De lo contrario ingresando tu código postal podrás calcular el costo de envío y la demora “estimada”. El cumplimiento de la fecha de entrega, puede verse afectado por cuestiones coyunturales de fuerza mayor que exceden a la compañía.",
+  "categoria": "deporte",
+  "precio": 5999,
+  "disponible": false,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_881749-MLA44172235047_112020-F.webp"
+},
+{
+  "id": 22,
+  "nombre_producto": "Lapiz Negro Grafito Bic Evolution Nº 2 Hb Caja X 12 Unidades",
+  "descripcion": "Lápiz negro Bic Evolution X 12 unidades HB Nº2 Punta resistente. Cuerpo hexagonal",
+  "categoria": "utiles",
+  "precio": 240,
+  "disponible": true,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_817086-MLA45309889414_032021-O.webp"
+},
+{
+  "id": 23,
+  "nombre_producto": "Lapiceras Biromes Boligrafos Shwey Tipo Bic Caja X50 Azul",
+  "descripcion": "Colores Disponibles : AZUL - NEGRO - ROJO - VERDE. Escritura suave. Cuerpo hexagonal ",
+  "categoria": "utiles",
+  "precio": 379,
+  "disponible": true,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_876566-MLA32763046141_112019-O.webp"
+},
+{
+  "id": 24,
+  "nombre_producto": "Kit Set Utiles Escolares Secundaria 18",
+  "descripcion": "Incluye: 8 boligrafos Paper Mate + 1 Lapiz negro + 1 Sacapuntas + 1 Goma de borrar +1 Lapiz Corrector + 3 Carpetas Nº3 con gancho transparentes + 1 Paquete de Separadores Rivadavia + 2 Repuestos de 48hojas Nº3 (rayada o cuadriculada a elección)",
+  "categoria": "utiles",
+  "precio": 2200,
+  "disponible": false,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_746225-MLA25404433355_022017-O.webp"
+},
+{
+  "id": 25,
+  "nombre_producto": "Kit Utiles Universitarios/ Secundaria 16 Elementos",
+  "descripcion": "Artículos escolares, comerciales, artística, técnica, oficina e insumos de informática",
+  "categoria": "utiles",
+  "precio": 3060,
+  "disponible": false,
+  "url_imagen": "https://http2.mlstatic.com/D_NQ_NP_848694-MLA29149702535_012019-O.webp"
+}]
