@@ -12,15 +12,15 @@ app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
-app.set('port', process.env.port || 8080);
+const port = process.env.PORT || 8080;
 // rutas
 app.get('/', (req, res) =>{
     fetch("https://raw.githubusercontent.com/EmilianoGorgellon/proyecto-productos/main/data/lista-productos.json")
     .then (response => response.json())
     .then (datosJson => {
-        res.render('index.html', {datosJson})
+        res.render('index.html', {datosJson});
     })
-    .catch (error => res.send(`Hubo un error ${error} `))
+    .catch (error => res.send(`Hubo un error ${error} `));
   
 })
 app.get ('/productos/:id', (req,res) => {
@@ -29,7 +29,7 @@ app.get ('/productos/:id', (req,res) => {
     .then (datosJson => {
         for(datos of datosJson){
             if (parseInt(req.params.id) === parseInt(datos.id)){
-                res.render('producto.html', {datos})
+                res.render('producto.html', {datos});
             }
         }
         
@@ -44,10 +44,10 @@ app.get('/categoria/:categoria', (req, res) =>{
         let categoria_productos = [];
         for (datos of datosJson){
             if (req.params.categoria == datos.categoria){
-                categoria_productos.push(datos)
+                categoria_productos.push(datos);
             }
         }
-        res.render('categoria.html', {categoria_productos})
+        res.render('categoria.html', {categoria_productos});
     })
     .catch(error => console.log(`aca hubo un error: ${error}`))
 })
@@ -64,4 +64,4 @@ app.get('/buscador', (req, res) => {
 app.get('/contacto', (req ,res)=>{
     res.render('contacto.html')
 })
-app.listen(app.get('port'), () => console.log("iniciando"))
+app.listen(port);
