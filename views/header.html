@@ -4,31 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tu mercado</title>
+    <link rel="icon" type="image/png" href="../images/bolsa-de-la-compra.png">
 </head>
 <body>
     <header class="header">
-        <nav class="nav">
-            <ul class="nav--ul">
-                <li class="nav--ul-logo"><a href="/"><img src="../images/logo.png" alt="logo" class="img-logo"></a></li>
-                <li class="nav--ul-li"><a href="/" class="nav--ul-li-a">Inicio</a></li>
-                <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <div class="header-bar">
+            <div class="nav--ul-logo">
+                <a href="/" ><img src="../images/logo.png" alt="logo" class="img-logo"></a>
+            </div>
+            <div class="nav--ul-search">
+                <form action="/buscador" method="get" name="formu">
+                    <input class="input-search" type="text" name="busqueda" placeholder="Busca tu producto">
+                    <i class="icon-search fas fa-search" onclick="buscar()"></i>
+                </form>
+            </div>
+            <div class="icon-menu-bar" id="buttonBar">
+                <i class="fas fa-bars"></i>
+            </div>  
+        </div>
+        <nav>
+            <ul class="menu" id="menu">
+                <button class="dropdown-toggle nav--button" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                     Categorias
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li><a class="button-item" href="../categoria/autos">Autos</a></li>
-                    <li><a class="button-item" href="../categoria/deporte">Deporte</a></li>
-                    <li><a class="button-item" href="../categoria/electrodomesticos">Electrodomesticos</a></li>
-                    <li><a class="button-item" href="../categoria/tecnologia">Tecnologia</a></li>
-                    <li><a class="button-item" href="../categoria/utiles">Utiles</a></li>
+                    <li class="container--button-item"><a class="button-item" href="../categoria/autos">Autos</a></li>
+                    <li class="container--button-item"><a class="button-item" href="../categoria/deporte">Deporte</a></li>
+                    <li class="container--button-item"><a class="button-item" href="../categoria/electrodomesticos">Electrodomesticos</a></li>
+                    <li class="container--button-item"><a class="button-item" href="../categoria/tecnologia">Tecnologia</a></li>
+                    <li class="container--button-item"><a class="button-item" href="../categoria/utiles">Utiles</a></li>
                 </ul>
-                <li class="nav--ul-search">
-                    <form action="/buscador" method="get" name="formu">
-                        <input class="input-search" type="text" name="busqueda" placeholder="Busca tu producto">
-                        <i class="icon-search fas fa-search" onclick="buscar()"></i>
-                    </form>
-                </li>
-                <li class="nav--ul-li"><a class="nav--ul-li-a" href="../contacto">Contacto</a></li>
+                <li class="nav--ul-li"><a href="/" class="link">Inicio</a></li>
+               
+                <li class="nav--ul-li"><a class="link" href="../contacto">Contacto</a></li>
             </ul>
         </nav>
         <script src="../js/codigo.js"></script>

@@ -1,16 +1,30 @@
+const expresionesReg = {
+    buscador: /^[a-zA-Z0-9\.]+$/,
+    nombre: /^[a-zA-Z]+$/,
+    email: /^[a-zA-Z0-9\.-_]+@+[a-zA-Z0-9\.-_]+\.+[a-zA-Z]+$/,
+    mensaje: /^[a-zA-Z0-9\.-_]+$/
+}
+const buttonBar = document.getElementById("buttonBar");
+const menu = document.getElementById("menu");
+
+
+buttonBar.addEventListener('click', () => {
+    menu.classList.toggle("menu-show")
+})
+
 const buscar = () => {
     let busqueda = document.formu.busqueda.value;
-    if (/^[a-zA-Z0-9\.]+$/.test(busqueda)){
+    if (expresionesReg.buscador.test(busqueda)){
         document.formu.submit();
-    } else {
-        alert("NO cumple con los criterios de busqueda")
-    }
+    } 
 }
+
+
 const buttonEnviar = () =>{
     let nombre = document.formulario.nombre.value;
     let email = document.formulario.email.value;
     let msj = document.formulario.msj.value;
-    if ((/^[a-zA-Z]+$/).test(nombre) && (/^[a-zA-Z0-9]+$/).test(email) && (/^[a-zA-Z0-9]+$/).test(msj)){
+    if (expresionesReg.nombre.test(nombre) && expresionesReg.email.test(email) && expresionesReg.mensaje.test(msj)){
         alert("Formulario enviado correctamente")
         document.formulario.reset();
     } else {

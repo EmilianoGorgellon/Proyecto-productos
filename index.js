@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const nunjucks = require('nunjucks');
 const fetch = require('node-fetch');
-
+//configuraciones
 nunjucks.configure('views',{
     autoescape: true,
     express: app
@@ -12,6 +12,8 @@ app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
+app.set('port', process.env.port || 8080);
+// rutas
 app.get('/', (req, res) =>{
     fetch("https://raw.githubusercontent.com/EmilianoGorgellon/proyecto-productos/main/data/lista-productos.json")
     .then (response => response.json())
@@ -62,4 +64,4 @@ app.get('/buscador', (req, res) => {
 app.get('/contacto', (req ,res)=>{
     res.render('contacto.html')
 })
-app.listen(8080, () => console.log("iniciando"))
+app.listen(app.get('port'), () => console.log("iniciando"))
