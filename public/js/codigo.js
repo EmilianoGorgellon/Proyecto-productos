@@ -14,16 +14,3 @@ const buscar = () => {
         document.formu.submit();
     } 
 }
-
-
-const buttonEnviar = () =>{
-    let nombre = document.formulario.nombre.value;
-    let email = document.formulario.email.value;
-    let msj = document.formulario.msj.value;
-    if (expresionesReg.nombre.test(nombre) && expresionesReg.email.test(email) && expresionesReg.mensaje.test(msj)){
-        alert("Formulario enviado correctamente")
-        document.formulario.reset();
-    } else {
-        alert("Nombre, email y/o mensaje formato incorrecto")
-    }
-}

@@ -49,7 +49,7 @@ app.get('/categoria/:categoria', (req, res) =>{
         }
         res.render('categoria.html', {categoria_productos});
     })
-    .catch(error => console.log(`aca hubo un error: ${error}`))
+    .catch(error => console.log(`Error: ${error}`))
 })
 app.get('/buscador', (req, res) => {
     fetch("https://raw.githubusercontent.com/EmilianoGorgellon/proyecto-productos/main/data/lista-productos.json")

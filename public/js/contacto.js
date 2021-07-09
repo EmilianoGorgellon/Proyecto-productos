@@ -48,10 +48,6 @@ areaMensaje.addEventListener("blur", validacion);
 
 
 buttonSend.addEventListener('click', (e) => {
-    console.log(sendFormu.nombre)
-    console.log(sendFormu.email)
-    console.log(sendFormu.mensaje)
-    console.log(buttonSend)
     if (sendFormu.nombre && sendFormu.email && sendFormu.mensaje) {
         buttonSend.type = "submit";
     } else {
