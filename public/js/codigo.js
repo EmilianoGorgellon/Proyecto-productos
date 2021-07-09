@@ -1,12 +1,8 @@
-const expresionesReg = {
-    buscador: /^[a-zA-Z0-9\.]+$/,
-    nombre: /^[a-zA-Z]+$/,
-    email: /^[a-zA-Z0-9\.-_]+@+[a-zA-Z0-9\.-_]+\.+[a-zA-Z]+$/,
-    mensaje: /^[a-zA-Z0-9\.-_]+$/
+let expresionReg = {
+    "buscador": /^[a-zA-Z0-9\.]+$/,
 }
 const buttonBar = document.getElementById("buttonBar");
 const menu = document.getElementById("menu");
-
 
 buttonBar.addEventListener('click', () => {
     menu.classList.toggle("menu-show")
@@ -14,7 +10,7 @@ buttonBar.addEventListener('click', () => {
 
 const buscar = () => {
     let busqueda = document.formu.busqueda.value;
-    if (expresionesReg.buscador.test(busqueda)){
+    if (expresionReg.buscador.test(busqueda)){
         document.formu.submit();
     } 
 }

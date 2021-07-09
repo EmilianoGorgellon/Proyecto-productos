@@ -64,4 +64,21 @@ app.get('/buscador', (req, res) => {
 app.get('/contacto', (req ,res)=>{
     res.render('contacto.html')
 })
+
+app.post('/sendData', (req, res) => {
+    const expresionesReg = {
+        "nombre": /^[a-zA-Z]{3,15}$/,
+        "email": /^[a-zA-Z0-9\.-_]{3,30}@+[a-zA-Z0-9\.-_]{3,15}\.+[a-zA-Z]+$/,
+        "mensaje": /^[a-zA-Z0-9\.-_]{3,160}$/
+    }
+    const name = req.body.nombre;
+    const email = req.body.email;
+    const mensaje = req.body.mensaje;
+    if (expresionesReg.nombre.test(name) && expresionesReg.email.test(email) && expresionesReg.mensaje.test(mensaje)) {
+        res.render('mensaje.html', {mensaje: `Hola ${name}, tu mensaje fue enviado a ${email} correctamente.`})
+    } else {
+        res.render('mensaje.html', {mensaje: `Hola ${name}, tu mensaje no pudo ser enviado`})
+    }
+   
+})
 app.listen(port);
