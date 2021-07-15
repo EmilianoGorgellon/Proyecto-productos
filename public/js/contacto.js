@@ -11,6 +11,24 @@ const sendFormu = {
 const inputs = document.querySelectorAll("#formulario input");
 const areaMensaje = document.querySelector("#formulario textarea");
 const buttonSend = document.getElementById("button-send")
+// Header (menu de navegacion)
+const buttonBar = document.getElementById("buttonBar");
+const menu = document.getElementById("menu");
+const carritoCantidad = document.getElementById("cantidad--carrito");
+const cantidadProductos = localStorage.getItem("cantidad");
+
+cantidadProductos !== null ? (
+    carritoCantidad.classList.add("cantidad--carrito"),
+    carritoCantidad.innerText = `${cantidadProductos}`
+) : (
+    carritoCantidad.classList.remove("cantidad--carrito"),
+    carritoCantidad.innerText = ""
+)
+
+buttonBar.addEventListener('click', () => {
+    menu.classList.toggle("menu-show")
+
+})
 
 const validacion = (e) => {
     if (e.target.name === "nombre") {

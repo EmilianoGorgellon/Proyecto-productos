@@ -61,8 +61,12 @@ app.get('/buscador', (req, res) => {
     })
     .catch(error => console.log(`Error: ${error} `))
 })
-app.get('/contacto', (req ,res)=>{
+app.get('/contacto', (req, res) => {
     res.render('contacto.html')
+})
+
+app.get('/compras', (req, res) => {
+    res.render('compras.html')
 })
 
 app.post('/sendData', (req, res) => {
@@ -79,6 +83,7 @@ app.post('/sendData', (req, res) => {
     } else {
         res.render('mensaje.html', {mensaje: `Hola ${name}, tu mensaje no pudo ser enviado`})
     }
-   
 })
+
+
 app.listen(port);
