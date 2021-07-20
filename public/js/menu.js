@@ -13,3 +13,12 @@ cantidadProductos !== null ? (
     carritoCantidad.classList.remove("cantidad--carrito"),
     carritoCantidad.innerText = ""
 )
+const iconBuscador = document.getElementById("iconBuscador");
+iconBuscador.addEventListener('click', () => {
+    const valorBusqueda = document.formu.busqueda.value;
+    if (/^[a-zA-Z0-9\.]+$/.test(valorBusqueda)){
+        document.formu.submit();
+    } else {
+        alert("NO cumple con los criterios de busqueda")
+    }
+})

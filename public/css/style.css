@@ -65,6 +65,7 @@ body{
         z-index: 100;
         left: 45%;
         color: var(--dark-grey);
+        cursor: pointer;
     }
 }
 .icon-menu-bar {

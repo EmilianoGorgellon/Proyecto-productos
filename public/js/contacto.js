@@ -16,6 +16,7 @@ const buttonBar = document.getElementById("buttonBar");
 const menu = document.getElementById("menu");
 const carritoCantidad = document.getElementById("cantidad--carrito");
 const cantidadProductos = localStorage.getItem("cantidad");
+const iconBuscador = document.getElementById("iconBuscador");
 
 cantidadProductos !== null ? (
     carritoCantidad.classList.add("cantidad--carrito"),
@@ -30,6 +31,16 @@ buttonBar.addEventListener('click', () => {
 
 })
 
+iconBuscador.addEventListener('click', () => {
+    const valorBusqueda = document.formu.busqueda.value;
+    if (/^[a-zA-Z0-9\.]+$/.test(valorBusqueda)){
+        document.formu.submit();
+    } else {
+        alert("NO cumple con los criterios de busqueda")
+    }
+})
+
+// validacion de contacto
 const validacion = (e) => {
     if (e.target.name === "nombre") {
         validacionNow(e.target.value , e.target.name, expresionesReg.nombre);

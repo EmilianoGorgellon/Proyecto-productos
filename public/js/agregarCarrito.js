@@ -4,11 +4,23 @@ const productoShop = [];
 // Header (menu de navegacion)
 const buttonBar = document.getElementById("buttonBar");
 const menu = document.getElementById("menu");
+const iconBuscador = document.getElementById("iconBuscador");
 let cantidadProductos = 0;
+
 buttonBar.addEventListener('click', () => {
     menu.classList.toggle("menu-show")
 })
 
+iconBuscador.addEventListener('click', () => {
+    const valorBusqueda = document.formu.busqueda.value;
+    if (/^[a-zA-Z0-9\.]+$/.test(valorBusqueda)){
+        document.formu.submit();
+    } else {
+        alert("NO cumple con los criterios de busqueda")
+    }
+})
+
+// agregar producto al carrito
 if (localStorage.getItem("carrito") !== null) {
     cantidadProductos = localStorage.getItem("cantidad")
     const jsonProductosLocal = localStorage.getItem("carrito");
