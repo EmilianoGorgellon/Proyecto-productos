@@ -18,7 +18,7 @@ app.get('/', (req, res) =>{
     fetch("https://raw.githubusercontent.com/EmilianoGorgellon/proyecto-productos/main/data/lista-productos.json")
     .then (response => response.json())
     .then (datosJson => {
-        res.render('index.html', {datosJson});
+        res.status(200).render('index.html', {datosJson});
     })
     .catch (error => res.send(`Hubo un error ${error} `));
   
@@ -29,7 +29,7 @@ app.get ('/productos/:id', (req,res) => {
     .then (datosJson => {
         for(datos of datosJson){
             if (parseInt(req.params.id) === parseInt(datos.id)){
-                res.render('producto.html', {datos});
+                res.status(200).render('producto.html', {datos});
             }
         }
         
@@ -47,7 +47,7 @@ app.get('/categoria/:categoria', (req, res) =>{
                 categoria_productos.push(datos);
             }
         }
-        res.render('categoria.html', {categoria_productos});
+        res.status(200).render('categoria.html', {categoria_productos});
     })
     .catch(error => console.log(`Error: ${error}`))
 })
@@ -57,16 +57,16 @@ app.get('/buscador', (req, res) => {
     .then (datosJson => {
         const buscador = req.query.busqueda;
         const resultado = datosJson.filter(datos => datos.nombre_producto.toLowerCase().includes(buscador.toLowerCase()));
-        res.render('buscador.html', {resultado});
+        res.status(200).render('buscador.html', {resultado});
     })
     .catch(error => console.log(`Error: ${error} `))
 })
 app.get('/contacto', (req, res) => {
-    res.render('contacto.html')
+    res.status(200).render('contacto.html')
 })
 
 app.get('/compras', (req, res) => {
-    res.render('compras.html')
+    res.status(200).render('compras.html')
 })
 
 app.post('/sendData', (req, res) => {
@@ -79,9 +79,9 @@ app.post('/sendData', (req, res) => {
     const email = req.body.email;
     const mensaje = req.body.mensaje;
     if (expresionesReg.nombre.test(name) && expresionesReg.email.test(email) && expresionesReg.mensaje.test(mensaje)) {
-        res.render('mensaje.html', {mensaje: `Hola ${name}, tu mensaje fue enviado a ${email} correctamente.`})
+        res.status(200).render('mensaje.html', {mensaje: `Hola ${name}, tu mensaje fue enviado a ${email} correctamente.`})
     } else {
-        res.render('mensaje.html', {mensaje: `Hola ${name}, tu mensaje no pudo ser enviado`})
+        res.status(400).render('mensaje.html', {mensaje: `Hola ${name}, tu mensaje no pudo ser enviado`})
     }
 })
 
